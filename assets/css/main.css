@@ -622,7 +622,7 @@ details[open] summary::after {
 /* Homepage hero background */
 .homepage-hero {
   background-image:
-    linear-gradient(rgba(248, 244, 236, 0.60), rgba(244, 237, 227, 0.60)),
+    linear-gradient(rgba(248, 244, 236, 0.40), rgba(244, 237, 227, 0.40)),
     url("/assets/images/homepage-hero-eucalyptus-lavender.webp");
   background-size: cover;
   background-position: center center;
