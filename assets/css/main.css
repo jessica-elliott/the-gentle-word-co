@@ -979,3 +979,53 @@ details[open] summary::after {
   .site-wordmark { width: 180px; }
   .page-hero-left h1 { font-size: 1.95rem; }
 }
+
+/* July 2026 refinement: quieter page titles, tighter rhythm, elegant wordmark */
+.site-wordmark { width: 238px; }
+.footer-wordmark img { width: 228px; }
+.interior-page { max-width: 860px; }
+.page-hero-left { padding: 2.5rem 0 1.25rem; }
+.page-hero-left h1 {
+  font-size: clamp(1.7rem, 2.6vw, 2rem);
+  line-height: 1.25;
+  margin-top: .35rem;
+  max-width: 760px;
+}
+.page-hero-left p { margin-top: .7rem; }
+.interior-section { padding: 1.35rem 0; }
+.interior-section h2 {
+  font-size: clamp(1.55rem, 2.4vw, 1.9rem);
+  margin: .35rem 0 .7rem;
+}
+.interior-section p:last-child { margin-bottom: 0; }
+.soft-panel {
+  padding: 1.8rem 2rem;
+  margin: .55rem 0;
+}
+.interior-page .belief-card {
+  margin: .55rem 0;
+  padding: 1.7rem 2rem;
+}
+.final-cta { padding-bottom: 2.25rem; }
+.contact-options {
+  gap: 1rem;
+  margin: .4rem 0 .8rem;
+}
+.contact-option { padding: 1.35rem; }
+.contact-note { margin-top: .9rem; }
+@media (max-width: 900px) {
+  .site-wordmark { width: 215px; }
+}
+@media (max-width: 760px) {
+  .site-wordmark { width: 198px; }
+  .page-hero-left { padding: 2rem 0 1rem; }
+  .page-hero-left h1 { font-size: 1.7rem; }
+  .interior-section { padding: 1.15rem 0; }
+  .soft-panel,
+  .interior-page .belief-card { padding: 1.45rem 1.35rem; }
+  .footer-wordmark img { width: 205px; }
+}
+@media (max-width: 420px) {
+  .site-wordmark { width: 178px; }
+  .page-hero-left h1 { font-size: 1.6rem; }
+}
