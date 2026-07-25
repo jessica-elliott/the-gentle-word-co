@@ -1,0 +1,15 @@
+# Place blog post Markdown files here.
+#
+# Each file uses YAML frontmatter:
+#
+# ---
+# title: "When Rest Feels Like Laziness"
+# excerpt: "Learning to receive God's invitation to stillness without guilt."
+# publishDate: 2025-07-15
+# author: Jessica
+# category: Rest
+# tags: [rest, perfectionism, grace]
+# image: /assets/images/blog/when-rest-feels-like-laziness.jpg
+# ---
+#
+# Your Markdown content here...
