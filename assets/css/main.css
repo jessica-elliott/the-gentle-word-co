@@ -873,3 +873,17 @@ details[open] summary::after {
     width: 100%;
   }
 }
+
+
+/* About and contact pages */
+.page-hero { text-align: center; padding: 5rem 0 3rem; }
+.page-hero p { max-width: 650px; margin: 1rem auto 0; color: var(--text-light); font-size: 1.1rem; }
+.story-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 3rem; align-items: center; }
+.story-panel { background: var(--cream-warm); padding: 2.5rem; border-radius: var(--radius-lg); }
+.belief-card { border-left: 4px solid var(--gold); background: var(--white); padding: 2rem 2.25rem; border-radius: 0 var(--radius) var(--radius) 0; box-shadow: var(--shadow-soft); }
+.contact-card { max-width: 720px; margin: 0 auto; background: var(--white); border-radius: var(--radius-lg); padding: 3rem; box-shadow: var(--shadow); text-align: center; }
+.contact-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.25rem; margin: 2rem 0; text-align: left; }
+.contact-option { background: var(--cream-warm); padding: 1.5rem; border-radius: var(--radius); }
+.contact-option h3 { font-size: 1.2rem; margin-bottom: .5rem; }
+.footer-brand-line { width: 100%; font-size: .9rem; opacity: .86; margin-top: .25rem; }
+@media (max-width: 760px) { .story-grid, .contact-options { grid-template-columns: 1fr; } .page-hero { padding: 3.5rem 0 2rem; } .contact-card { padding: 2rem 1.5rem; } }
