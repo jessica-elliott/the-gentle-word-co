@@ -887,3 +887,95 @@ details[open] summary::after {
 .contact-option h3 { font-size: 1.2rem; margin-bottom: .5rem; }
 .footer-brand-line { width: 100%; font-size: .9rem; opacity: .86; margin-top: .25rem; }
 @media (max-width: 760px) { .story-grid, .contact-options { grid-template-columns: 1fr; } .page-hero { padding: 3.5rem 0 2rem; } .contact-card { padding: 2rem 1.5rem; } }
+
+/* Refined wordmark and consistent interior pages */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.site-wordmark {
+  width: 255px;
+  max-width: 100%;
+  height: auto;
+}
+.footer-wordmark {
+  display: block;
+  width: 100%;
+  margin-bottom: .35rem;
+}
+.footer-wordmark img {
+  width: 245px;
+  height: auto;
+}
+.interior-page {
+  max-width: 900px;
+}
+.interior-page section {
+  text-align: left;
+}
+.page-hero-left {
+  padding: 4rem 0 2.5rem;
+}
+.page-hero-left h1 {
+  font-size: clamp(2.15rem, 4vw, 3rem);
+  margin-top: .45rem;
+  max-width: 760px;
+}
+.page-hero-left p {
+  max-width: 760px;
+  margin: 1rem 0 0;
+}
+.interior-section {
+  padding: 2.75rem 0;
+}
+.interior-section h2 {
+  margin: .5rem 0 1rem;
+  font-size: clamp(1.75rem, 3vw, 2.15rem);
+}
+.soft-panel {
+  background: var(--cream-warm);
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  margin: 1rem 0;
+}
+.interior-page .belief-card {
+  margin: 1rem 0;
+}
+.final-cta {
+  max-width: 760px;
+}
+.final-cta .btn {
+  margin-top: 1rem;
+}
+.contact-options-wide {
+  margin: 0;
+}
+.contact-option h2 {
+  font-size: 1.35rem;
+  margin: 0 0 .7rem;
+}
+.contact-note {
+  color: var(--text-light);
+  margin: 1.5rem 0 0;
+  max-width: 760px;
+}
+
+@media (max-width: 900px) {
+  .site-wordmark { width: 225px; }
+  .nav-links { gap: 1.5rem; }
+}
+@media (max-width: 760px) {
+  header { padding: .9rem 0; }
+  .site-wordmark { width: 205px; }
+  .page-hero-left { padding: 3rem 0 1.75rem; }
+  .page-hero-left h1 { font-size: 2.15rem; }
+  .interior-section { padding: 2.15rem 0; }
+  .soft-panel { padding: 1.75rem; }
+  .footer-wordmark img { width: 215px; }
+}
+@media (max-width: 420px) {
+  .site-wordmark { width: 180px; }
+  .page-hero-left h1 { font-size: 1.95rem; }
+}

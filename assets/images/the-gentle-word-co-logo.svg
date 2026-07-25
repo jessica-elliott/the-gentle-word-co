@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="76" viewBox="0 0 360 76" role="img" aria-labelledby="title desc">
+<title id="title">The Gentle Word Co.</title><desc id="desc">The Gentle Word Co. wordmark with a eucalyptus sprig.</desc>
+<g fill="none" stroke="#5C6B5E" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 58 C31 45, 43 30, 57 12" stroke-width="2.4"/>
+  <path d="M26 48 C20 39, 18 33, 19 27 C27 30, 31 36, 31 43" fill="#93A493" stroke-width="1.2"/>
+  <path d="M36 38 C31 29, 31 23, 34 17 C41 22, 44 29, 42 35" fill="#78907C" stroke-width="1.2"/>
+  <path d="M46 27 C44 19, 46 13, 50 8 C56 14, 57 20, 53 26" fill="#A9B8A7" stroke-width="1.2"/>
+  <path d="M23 53 C14 52, 9 49, 5 44 C13 40, 20 42, 26 47" fill="#A9B8A7" stroke-width="1.2"/>
+  <path d="M32 43 C24 42, 19 38, 16 33 C24 31, 31 34, 35 39" fill="#78907C" stroke-width="1.2"/>
+  <path d="M43 33 C37 30, 34 25, 33 20 C40 20, 46 24, 48 29" fill="#93A493" stroke-width="1.2"/>
+</g>
+<text x="70" y="47" fill="#3F3A33" font-family="Georgia, 'Times New Roman', serif" font-size="31" letter-spacing="0.5">The Gentle Word Co.</text>
+</svg>
