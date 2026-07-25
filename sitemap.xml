@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://thegentlewordco.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://thegentlewordco.com/gentle-reset-starter-kit/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://thegentlewordco.com/7-day-gentle-reset/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://thegentlewordco.com/blog/</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://thegentlewordco.com/blog/you-dont-have-to-hold-it-all-together/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://thegentlewordco.com/blog/when-perfectionism-keeps-you-stuck/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://thegentlewordco.com/blog/the-grace-of-one-small-step/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://thegentlewordco.com/blog/archive/</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
 </urlset>
